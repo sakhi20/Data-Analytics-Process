@@ -1,25 +1,39 @@
 # Data Analytics Process: Real-Life Application Case Study
 
-## 📊 About This Project
+End-to-end data analytics case study applying the 6-phase process (Plan → Prepare → Process → Analyze → Share → Act) to meal planning and cooking scenario data.
 
-This project demonstrates how we naturally use the **6-step Data Analytics Process** in everyday life through the relatable example of **meal planning and cooking**. Created as part of Data Analytics Fundamentals coursework, it makes complex analytical concepts accessible to beginners.
+## Overview
 
-## 🎯 Key Insight
+This project demonstrates how the standard 6-step data analytics process applies to everyday life decisions — specifically meal planning, grocery shopping, and cooking. Created as part of Data Analytics Fundamentals coursework, it grounds abstract analytical concepts in an accessible, relatable context.
 
-Data analytics isn't just for businesses or tech - we unconsciously follow analytical thinking patterns in daily decisions like planning meals, managing budgets, and optimizing our routines.
+## The 6-Phase Process
 
-## 📁 What's Included
+1. **Plan** — Define the question: "How can I plan meals for the week to minimize cost, reduce waste, and meet nutritional goals?" Identify required data (recipes, ingredient prices, nutritional values).
 
-- **Presentation.pdf** - Complete case study with detailed examples and visual process flow
+2. **Prepare** — Collect data: compile a recipe database, weekly grocery prices, and household preferences. Assess data quality and document sources.
 
-## 🎓 Learning Value
+3. **Process** — Clean and transform the data: standardize ingredient units, handle missing nutritional values, and calculate cost-per-serving for each recipe.
 
-Perfect for anyone wanting to understand data analytics without getting lost in technical jargon. Shows that analytical thinking is already part of how we solve everyday problems.
+4. **Analyze** — Apply statistical reasoning: identify lowest-cost meals meeting nutritional targets, find patterns in ingredient reuse across recipes to minimize unique item purchases.
 
-## 👤 Author
+5. **Share** — Communicate findings: present a weekly meal plan with cost breakdown, nutritional summary, and shopping list in a clear visual format accessible to all household members.
 
-**Sakhi Patel**
+6. **Act** — Implement and iterate: execute the meal plan, track actual vs. estimated cost and waste, and refine the model for the following week based on outcomes.
 
----
+## Files
 
-*Making data analytics accessible through everyday examples that everyone can understand and relate to.*
+```
+├── Presentation.pdf   # Complete case study with detailed examples and visual process flow
+└── README.md
+```
+
+## Tools
+
+- **Python** — Pandas, Matplotlib for data processing and visualization
+- **Excel** — Tabular organization and cost calculations
+
+## Academic Context
+
+Data Analytics Fundamentals project, PDEU — AY 2024–2025.
+
+**Author:** Sakhi Patel · sakhipatel20@gmail.com
